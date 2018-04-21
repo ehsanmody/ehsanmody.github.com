@@ -1,20 +1,29 @@
+/*
+* Author: Ehsan Kashfi
+* Version: 1.0
+*/
+
 /* Colors */
+
 .mColor-android {
     background-color: #a4c639;
 }
+
 .mColor-java {
     background-color: #ff0000;
 }
+
 .mColor-csharp {
     background-color: purple;
 }
+
 .mColor-web {
     background-color: #e34f26;
 }
+
 .mColor-php {
     background-color: #8892be;
 }
-
 
 /* Custom styles */
 
@@ -23,7 +32,9 @@ body {
     color: #263238;
 }
 
-.main {margin: 32px 0;}
+.main {
+    margin: 32px 0;
+}
 
 .mainTitle {
     margin-bottom: 1.4rem;
@@ -35,8 +46,7 @@ body {
     height: 50%;
 }
 
-.about-card .ac-background img {
-}
+.about-card .ac-background img {}
 
 .about-card .ac-avatar {
     margin: -65px auto 0;
@@ -97,7 +107,8 @@ body {
     padding: 10px 0;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
     background-color: rgba(255, 255, 255, 0.2);
     border: none;
     transition: all 1s;
@@ -156,9 +167,7 @@ body {
     padding-bottom: 16px;
 }
 
-.specialized-courses h2 {
-    
-}
+.specialized-courses h2 {}
 
 .specialized-courses h4 {
     margin-bottom: 0px;
@@ -182,8 +191,7 @@ body {
 
 .skills h2 {}
 
-.skills ul {
-}
+.skills ul {}
 
 .skills ul li {}
 
@@ -219,15 +227,15 @@ body {
 }
 
 .peach-gradient {
-    background: -webkit-linear-gradient(50deg,#ffd86f,#fc6262)!important;
-    background: -o-linear-gradient(50deg,#ffd86f,#fc6262)!important;
-    background: linear-gradient(40deg,#ffd86f,#fc6262)!important;
+    background: -webkit-linear-gradient(50deg, #ffd86f, #fc6262) !important;
+    background: -o-linear-gradient(50deg, #ffd86f, #fc6262) !important;
+    background: linear-gradient(40deg, #ffd86f, #fc6262) !important;
 }
 
 .blue-gradient {
-    background: -webkit-linear-gradient(50deg,#45cafc,#303f9f)!important;
-    background: -o-linear-gradient(50deg,#45cafc,#303f9f)!important;
-    background: linear-gradient(40deg,#45cafc,#303f9f)!important;
+    background: -webkit-linear-gradient(50deg, #45cafc, #303f9f) !important;
+    background: -o-linear-gradient(50deg, #45cafc, #303f9f) !important;
+    background: linear-gradient(40deg, #45cafc, #303f9f) !important;
 }
 
 @media(max-width: 992px) {
@@ -240,7 +248,6 @@ body {
     .block div.col-md {
         margin-bottom: 16px;
     }
-
     .block div.col-md:last-child {
         margin-bottom: 0;
     }
