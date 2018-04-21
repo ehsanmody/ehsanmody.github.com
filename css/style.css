@@ -1,0 +1,247 @@
+/* Colors */
+.mColor-android {
+    background-color: #a4c639;
+}
+.mColor-java {
+    background-color: #ff0000;
+}
+.mColor-csharp {
+    background-color: purple;
+}
+.mColor-web {
+    background-color: #e34f26;
+}
+.mColor-php {
+    background-color: #8892be;
+}
+
+
+/* Custom styles */
+
+body {
+    background-color: #FAFAFA;
+    color: #263238;
+}
+
+.main {margin: 32px 0;}
+
+.mainTitle {
+    margin-bottom: 1.4rem;
+}
+
+.about-card {}
+
+.about-card .ac-background {
+    height: 50%;
+}
+
+.about-card .ac-background img {
+}
+
+.about-card .ac-avatar {
+    margin: -65px auto 0;
+    display: block;
+    width: 128px;
+    height: 128px;
+}
+
+.about-card .ac-avatar img {
+    border: 5px solid #FFF;
+    border-radius: 100%;
+    background: none repeat scroll 0 0 #fff;
+}
+
+.about-card .ac-body {
+    text-align: center;
+}
+
+.about-card .ac-body h4 {}
+
+.about-card .ac-body p {}
+
+.about-card .ac-body ul {
+    padding: 0;
+    margin: 0;
+}
+
+.about-card .ac-body ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.about-card .ac-body ul li a {
+    font-size: 19px;
+    display: block;
+}
+
+.about-card .ac-body ul li a i {}
+
+.nav-tabs {
+    background-color: #0275d8;
+    margin: 0 1rem -20px;
+    z-index: 2;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    border: 0;
+}
+
+.nav-tabs .nav-item {}
+
+.nav-tabs .nav-item .nav-link {
+    color: #FFF;
+    border: 0;
+    transition: all 0.4s;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    transition: all 1s;
+}
+
+.tab-content {
+    padding: 30px 10px 10px;
+}
+
+.block {
+    margin: 0 8px 16px 8px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+}
+
+.block:last-child {
+    margin-bottom: 0;
+    border: none;
+}
+
+.block h2 {
+    opacity: 0.9;
+    margin-bottom: 13px;
+}
+
+.aboutme {}
+
+.aboutme p {
+    padding: 0 8px;
+}
+
+.education {
+    padding-bottom: 16px;
+}
+
+.education h2 {}
+
+.education h4 {
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.education p {
+    font-size: 14px;
+    margin: 0 0 0 8px;
+    font-weight: 500;
+}
+
+.education span {
+    display: block;
+    opacity: 0.7;
+    font-size: 13px;
+    margin-left: 16px;
+}
+
+.specialized-courses {
+    padding-bottom: 16px;
+}
+
+.specialized-courses h2 {
+    
+}
+
+.specialized-courses h4 {
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.specialized-courses p {
+    font-size: 14px;
+    margin: 0 0 0 8px;
+    font-weight: 500;
+}
+
+.specialized-courses span {
+    display: block;
+    opacity: 0.7;
+    font-size: 13px;
+    margin-left: 16px;
+}
+
+.skills {}
+
+.skills h2 {}
+
+.skills ul {
+}
+
+.skills ul li {}
+
+.skills ul li p {}
+
+.btn-floating {
+    width: 47px;
+    height: 47px;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 47px;
+}
+
+.peach-gradient {
+    background: -webkit-linear-gradient(50deg,#ffd86f,#fc6262)!important;
+    background: -o-linear-gradient(50deg,#ffd86f,#fc6262)!important;
+    background: linear-gradient(40deg,#ffd86f,#fc6262)!important;
+}
+
+.blue-gradient {
+    background: -webkit-linear-gradient(50deg,#45cafc,#303f9f)!important;
+    background: -o-linear-gradient(50deg,#45cafc,#303f9f)!important;
+    background: linear-gradient(40deg,#45cafc,#303f9f)!important;
+}
+
+@media(max-width: 992px) {
+    .about-card {
+        margin-bottom: 32px;
+    }
+}
+
+@media(max-width: 768px) {
+    .block div.col-md {
+        margin-bottom: 16px;
+    }
+
+    .block div.col-md:last-child {
+        margin-bottom: 0;
+    }
+}
