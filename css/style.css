@@ -238,6 +238,13 @@ body {
     background: linear-gradient(40deg, #45cafc, #303f9f) !important;
 }
 
+.card.card-image {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
 @media(max-width: 992px) {
     .about-card {
         margin-bottom: 32px;
